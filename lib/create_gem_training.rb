@@ -1,5 +1,8 @@
-require "create_gem_training/version"
+require 'create_gem_training/version'
 
+# It's tarining result of creating gem
 module CreateGemTraining
-  # Your code goes here...
+  def self.hey
+    'hey' * Random.rand(1..10)
+  end
 end
