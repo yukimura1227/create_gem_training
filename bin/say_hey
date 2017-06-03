@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'create_gem_training'
+
+puts CreateGemTraining.hey
